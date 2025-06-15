@@ -28,10 +28,17 @@
     color: white;
     padding: 20px 25px;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1rem;
     border-radius: 5px;
     margin-bottom: 3.25rem;
     margin-top: 2rem;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
 }
 /* header style */
 /* nav style */
@@ -71,11 +78,50 @@
 .banner-description {
     font-weight: 1rem;
 }
-.banner-image{
-  width: 100%;
+.banner-image {
+    width: 100%;
+}
+
+/* team and feather related style */
+.teams {
+    align-items: center;
+}
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-feather{
+    margin-left: 130px;
+    max-width: 530px;
+}
+#quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+#of-our{
+    color: #131313;
+    font-weight: 700;
+}
+#features{
+    color: rgba(255, 144, 14, 1);
+    font-weight: 700;
+}
+
+.feather-title{
+    margin: 24px 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.feather-description{
+    margin-bottom: 10px;
 }
 
 /* responsive-media-query */
-@media screen and (max-width:576px) {
-  
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-link {
+        flex-direction: column;
+    }
 }
