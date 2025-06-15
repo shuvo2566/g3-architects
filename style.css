@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.montserrat-work-sans-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* shared style */
+.display-flex {
+    display: flex;
+}
+/* dark-02 */
+.text-gray {
+    color: #424242;
+}
+/* dark-03 */
+.text-light-gray {
+    color: #727272;
+}
+/* primary-color */
+.primary-bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.btn-primary {
+    background-color: #ff900e;
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-bottom: 3.25rem;
+    margin-top: 2rem;
+}
+/* header style */
+/* nav style */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: medium;
+}
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+/* banner-related-style */
+.banner-content {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.banner-description {
+    font-weight: 1rem;
+}
+.banner-image{
+  width: 100%;
+}
+
+/* responsive-media-query */
+@media screen and (max-width:576px) {
+  
+}
